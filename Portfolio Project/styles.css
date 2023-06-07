@@ -1,0 +1,81 @@
+/* Add styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add styles for the header element */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Add styles for the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    color: #06c;
+  }
+  
+  /* Hide all sections except for the active one */
+  main section {
+    display: none;
+  }
+  
+  main section:target {
+    display: block;
+  }
+  
+  /* Add styles for the main content area */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Add styles for headings */
+  h1, h2, h3 {
+    font-family: Georgia, serif;
+  }
+  
+  /* Add styles for paragraphs */
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Add styles for the footer element */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .gif-container {
+    /* Center the GIF container horizontally */
+    margin: 0 auto;
+   }
+   
